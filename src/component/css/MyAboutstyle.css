@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+#section{
+	width: 100%;
+	min-height: 65vh;
+	background-color: #ddd;
+}
+#section .container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+#section .content-section{
+	float: left;
+	width: 55%;
+}
+#section .image-section{
+	float: right;
+	width: 40%;
+}
+#section .image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+#section .content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+#section .content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+#section .content-section .content .button{
+	margin-top: 30px;
+}
+#section .content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+#section .content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color:#fff;
+}
+#section .content-section .social{
+	margin: 40px 40px;
+}
+#section .content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+}
+#section .content-section .social i:hover{
+	color:#3d3d3d;
+}
+@media screen and (max-width: 768px){
+	#section .container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+#section .content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+#section .image-section{
+	float:none;
+	width:100%;
+	
+}
+#section .image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+#section .content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+#section .content-section .content .button{
+	text-align: center;
+}
+#section .content-section .content .button a{
+	padding:9px 30px;
+}
+#section .content-section .social{
+	text-align: center;
+}
+
+}
+
+/* ----- */
+#hero{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  #about h1{
+    text-align: center;
+    padding: 20px;
+    color: #212529;
+    font-weight: 700;
+    font-size: 1.875em;
+    
+  }
+  #hero .card {
+    width: 18rem;
+    box-shadow: 9px 7px 16px 5px #212529;
+    border: 0;
+    text-align: center;
+  }
+  #hero i {
+    text-align: center;
+    padding: 15px;
+    text-shadow: 4px 2px 4px rgb(172, 172, 172);
+  }

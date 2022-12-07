@@ -1,0 +1,22 @@
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none !important;
+}
+.carousel-caption{
+    color: black !important;
+    font-weight: 800;
+    text-shadow: 2px 2px rgb(255, 222, 222);
+
+}
+.carousel-caption h3{
+    margin-bottom: 15%;
+    font-size: 50px;
+    font-weight: 900;
+}
+.carousel-caption p{
+    margin-bottom: 5%;
+}
+.slideimg{
+    width: 100%;
+    height: 70vh;
+    filter: blur(2px);
+}

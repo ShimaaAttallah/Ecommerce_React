@@ -1,0 +1,15 @@
+.logo-image{
+    width: 140px;
+    height: 80px;
+    margin-top: -6px;
+}
+.text{
+    color: white !important;
+    text-decoration: none;
+}
+nav{
+    text-align: center !important;
+}
+.buttons{
+    border-radius: 5px !important;
+}
